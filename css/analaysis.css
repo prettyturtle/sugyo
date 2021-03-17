@@ -1,0 +1,176 @@
+/* COMMON */
+body {
+  /* font-family: 'Nanum Gothic', sans-serif; */
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  color: #101820;
+  background-color: #dbb98f33;
+
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  /* background-color: #f6f5f0; */
+  background-color: #DBB98F;
+  border-bottom: 3px solid #96351F;
+  /* border: 1px solid #c8c8c8; */
+}
+header .inner {
+  /* background-color: aqua; */
+  max-width: 1500px;
+  height: 150px;
+  position: relative;
+  margin: auto;
+}
+
+header .inner .logo {
+  /* background-color: pink; */
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+}
+header .logo>img {
+  width: 125px;
+}
+
+
+header .inner .subject-menu {
+  /* background-color: red; */
+  max-width: 1000px;
+  height: 75px;
+  position: absolute;
+  top: 85px;
+  bottom: 0;
+  right: 20px;
+  margin: auto;
+}
+
+header .inner .subject-menu .subject {
+  /* background-color: white; */
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  width: inherit;
+  height: 75px;
+  align-items: center;
+}
+
+header .inner .subject-menu .subject div {
+  padding: 10px 20px 34px 20px;
+  margin: auto 50px;
+  border-radius: 10px 10px 0 0;
+}
+header .inner .subject-menu .subject div:hover {
+  background-color: #96351F;
+}
+
+header .inner .subject-menu .subject div a{
+  color: #96351F;
+}
+
+header .inner .subject-menu .subject div:hover a {
+  color: #DBB98F;
+}
+
+
+
+
+/* board */
+.board {
+  position: fixed;
+  top: 170px;
+  right: 0;
+  border: 5px double #96351F;
+  box-sizing: border-box;
+}
+.board>div {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.btn-box {
+  width: 170px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.board button {
+  width: 75px;
+  height: 40px;
+  font-size: 16px;
+  margin: 2px auto;
+  border-radius: 10px;
+  outline: none;
+  color: #96351F;
+  background-color: #DBB98F;
+  border: 1px solid #96351F;
+  box-shadow: 0 0 3px 0 #96351F;
+}
+.board button:hover {
+  cursor: pointer;
+}
+
+
+/* main */
+
+main {
+  border: 3px solid #96351f3f;
+  max-width: 1200px;
+  margin: 30px auto;
+
+  /* box-sizing: border-box; */
+}
+
+main .quiz_total {
+
+}
+main .quiz_total .quiz_name{
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 3px solid #96351f3f;
+}
+main .quiz_total .quiz_img {
+  margin: 10px auto;
+  width: fit-content;
+}
+main .quiz_total .quiz_img img {
+  max-width: 1100px;
+  border: 5px double #96351F
+  
+}
+
+main .answer_total {
+  /* background-color: #101820; */
+}
+main .answer_total .answer_num {
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 3px solid #96351f3f;
+  border-top: 3px solid #96351f3f;
+}
+
+main .answer_total .answer_img {
+  max-width: fit-content;
+  margin: 10px auto;
+  
+}
+main .answer_total .answer_img img {
+  max-width: 1000px;
+}
+main .answer_total .answer_img img:hover {
+  border: 3px solid #96351F;
+  cursor: pointer;
+  box-sizing: border-box;
+}

@@ -1,0 +1,85 @@
+/* COMMON */
+body {
+  /* font-family: 'Nanum Gothic', sans-serif; */
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  color: #101820;
+  background-color: #dbb98f33;
+
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  /* background-color: #f6f5f0; */
+  background-color: #DBB98F;
+  border-bottom: 3px solid #96351F;
+  /* border: 1px solid #c8c8c8; */
+}
+header .inner {
+  /* background-color: aqua; */
+  max-width: 1500px;
+  height: 150px;
+  position: relative;
+  margin: auto;
+}
+
+header .inner .logo {
+  /* background-color: pink; */
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+}
+header .logo>img {
+  width: 125px;
+}
+
+
+header .inner .subject-menu {
+  /* background-color: red; */
+  max-width: 1000px;
+  height: 75px;
+  position: absolute;
+  top: 85px;
+  bottom: 0;
+  right: 20px;
+  margin: auto;
+}
+
+header .inner .subject-menu .subject {
+  /* background-color: white; */
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  width: inherit;
+  height: 75px;
+  align-items: center;
+}
+
+header .inner .subject-menu .subject div {
+  padding: 10px 20px 34px 20px;
+  margin: auto 50px;
+  border-radius: 10px 10px 0 0;
+}
+header .inner .subject-menu .subject div:hover {
+  background-color: #96351F;
+}
+
+header .inner .subject-menu .subject div a{
+  color: #96351F;
+
+}
+
+header .inner .subject-menu .subject div:hover a {
+  color: #DBB98F;
+
+}
