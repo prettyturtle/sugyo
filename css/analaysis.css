@@ -128,6 +128,9 @@ header .inner .subject-menu .subject div:hover a {
 main {
   border: 3px solid #96351f3f;
   max-width: 1200px;
+  position: absolute;
+  top: 150px;
+  left: 10px;
   margin: 30px auto;
 
   /* box-sizing: border-box; */
